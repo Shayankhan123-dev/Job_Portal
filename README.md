@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Job Portal (Real-Time Job Analyzer)
 
@@ -119,3 +120,6 @@ Added the following meta tag in HTML templates to support mobile devices:
 This project is licensed under the MIT License.
 
 ---
+=======
+# Job_Portal
+>>>>>>> dbafefda66fc5a6c07eb0f016a2844e8d419cebe
