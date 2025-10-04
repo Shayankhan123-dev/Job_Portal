@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Job Portal (Real-Time Job Analyzer)
 
@@ -9,6 +8,7 @@ A Django-based Job Portal Web Application that allows users to search, scrape, a
 ## Features
 
 * Job Search & Scraping – Enter a job title and fetch real-time jobs
+* Job Searching Option - Search ny typing field name or search the job by uploading cv, the app will automatically analyze the skills and search jobs according to the cv
 * Organized Listings – Display job title, company, and location
 * Responsive UI – Works on desktop and mobile devices
 * Django-Powered – Secure backend with CSRF protection
@@ -99,7 +99,7 @@ Job_Portal/
 
 Added the following meta tag in HTML templates to support mobile devices:
 
-```html
+```
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
@@ -118,8 +118,3 @@ Added the following meta tag in HTML templates to support mobile devices:
 ## License
 
 This project is licensed under the MIT License.
-
----
-=======
-# Job_Portal
->>>>>>> dbafefda66fc5a6c07eb0f016a2844e8d419cebe
