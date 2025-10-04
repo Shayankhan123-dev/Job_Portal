@@ -1,0 +1,31 @@
+# Python/Django ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Virtual env
+venv/
+env/
+
+# OS files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+.DS_Store
+Thumbs.db
+
+# Selenium/Browser drivers
+chromedriver
+chromedriver.exe
+
+# VSCode / IDE
+.vscode/
+.idea/
+LICENSE.chromedriver
+cvs
