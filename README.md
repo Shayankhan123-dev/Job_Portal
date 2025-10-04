@@ -29,13 +29,75 @@ A Django-based Job Portal Web Application that allows users to search, scrape, a
 
 ```
 Job_Portal/
-│── job_portal/        # Main Django project (settings, urls, wsgi, asgi)
-│── home/              # App for job scraping and displaying results
-│── templates/         # HTML templates (frontend)
-│── manage.py          # Django project manager
-│── db.sqlite3         # Database (ignored in production)
-│── requirements.txt   # Python dependencies
-│── README.md          # Project documentation
+├── job_portal/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   └── migrations/
+│       └── __init__.py
+├── home/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   └── migrations/
+│       └── __init__.py
+├── opt1/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── scraper.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── migrations/
+│   │   └── __init__.py
+│   └── templates/
+│       └── opt1/
+│           ├── error.html
+│           ├── job_list.html
+│           ├── opt1.html
+│           └── success.html
+├── opt2/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── scraper.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── migrations/
+│   │   └── __init__.py
+│   └── templates/
+│       └── opt2/
+│           ├── recommendations.html
+│           └── upload_cv.html
+├── opt3/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+│   └── migrations/
+│       └── __init__.py
+├── templates/
+│   └── home.html
+├── manage.py
+├── requirements.txt
+├── README.md
+├── .gitignore
 ```
 
 ---
